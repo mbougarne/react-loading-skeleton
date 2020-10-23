@@ -11,6 +11,22 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 	monospace;
 }
+.App{
+	height: 100vh;
+}
+
+.App.bg-light{
+	background-color: white;
+}
+
+.App.bg-dark{
+	background-color: #323232;
+	color: white;
+}
+
+.App.bg-dark a{
+	color: white;
+}
 
 header{
 	background-color: #1e65ff;
@@ -21,6 +37,7 @@ header h1{
 	color: white;
 	max-width: 1280px;
 	margin: 0 auto;
+	margin-bottom: .75rem;
 	text-align: center;
 }
 
@@ -36,4 +53,16 @@ header h1{
 
 .content h2 {
 	border-bottom: 1px solid lightgray;
+}
+
+.btn-toggle{
+	margin: .75rem auto;
+    padding: .45rem .9rem;
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    float: right;
 }

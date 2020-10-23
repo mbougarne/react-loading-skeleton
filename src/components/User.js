@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import UserSkeleton from '../skeleton/UserSkeleton'
 
 const User = () => {
 
@@ -28,7 +29,7 @@ const User = () => {
                 </div>
             )}
 
-            {!user && <div>Loading...</div>}
+            {!user && <UserSkeleton />}
 
         </div>
     )
