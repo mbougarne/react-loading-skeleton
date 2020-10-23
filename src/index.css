@@ -21,4 +21,19 @@ header h1{
 	color: white;
 	max-width: 1280px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.content {
+	width: 100%;
+	max-width: 1280px;
+	padding-top: 15px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 50px;
+}
+
+.content h2 {
+	border-bottom: 1px solid lightgray;
 }
